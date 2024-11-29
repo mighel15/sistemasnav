@@ -17,7 +17,7 @@ fun HomeScreen (onClickListerner: () -> Unit){
         Spacer(modifier = Modifier.weight(1f))
         Text(text = "HOME SCREEN")
         Spacer(modifier = Modifier.weight(1f))
-        Button(onClick = { onClickListerner }) {
+        Button(onClick = { onClickListerner() }) {
             Text(text = "Ir a Login Screen")
         }
         Spacer(modifier = Modifier.weight(1f))
